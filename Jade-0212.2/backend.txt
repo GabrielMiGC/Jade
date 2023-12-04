@@ -1,0 +1,8 @@
+cd nome_da_pasta
+cd ..
+
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql
+
+Get-Content "$(Get-Location)/init.sql" | docker exec -i mysql mysql -uroot -proot
+
+npm start

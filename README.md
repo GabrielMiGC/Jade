@@ -30,7 +30,7 @@ NodeJS será necessário para rodar o servidor local e suas rotas para as requis
 
 **É necessário NodeJS instalado no computador**
 
-`cd Jade-0212.2`
+`cd Jade`
 
 `npm install`
 

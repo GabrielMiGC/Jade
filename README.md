@@ -28,6 +28,8 @@ NodeJS será necessário para rodar o servidor local e suas rotas para as requis
 
 >Comandos
 
+**É necessário NodeJS instalado no computador**
+
 `cd Jade-0212.2`
 
 `docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql`
